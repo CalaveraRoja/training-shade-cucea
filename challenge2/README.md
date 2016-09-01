@@ -1,9 +1,14 @@
-# Challenge #1 - My landing page
+# Challenge #2 - My First App
 
-*Create a web microservice that display the front-end of your application*
+*Simple fractal generator that uses mathematical equations to generate fractal images.*
 
-Requirements:
-* Develop a HTML landing page.
-* Create the Init-script for all the packages need.
-* Publish the code and script on Github.
-* Automated deployment with Shade SDK.
+Deploying "My First App" in OpenStack:
+* Import an SSH public key into OpenStack to create a key pair.
+* Create a security group to allows HTTP and SSH access to the instance.
+* Provide userdata to install the app after instance boot.
+* Create an instance with all the params: image, flavor, key pair,  security groups, userdata.
+* Associate a floating IP for external connectivity.
+* Wait until the deployment finished.
+
+
+http://developer.openstack.org/firstapp-shade/getting_started.html
