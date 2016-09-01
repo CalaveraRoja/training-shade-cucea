@@ -1,2 +1,2 @@
-# Creating cloud-aware apps in OpenStack
+# My First Cloud-Aware App
 Interacting with OpenStack services and Shade SDK
