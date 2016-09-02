@@ -14,7 +14,7 @@ flavor = conn.get_flavor(flavor_id)
 print(flavor)
 
 ex_userdata = '''#!/usr/bin/env bash
-curl -L -s https://raw.githubusercontent.com/openstack-hackathon/training-cucea/master/challenge3/init.sh | bash -s --
+curl -L -s https://raw.githubusercontent.com/openstack-hackathon/training-shade-cucea/master/challenge3/init.sh | bash -s --
 '''
 
 external_network = 'YOUR_NETWORK_ID'
